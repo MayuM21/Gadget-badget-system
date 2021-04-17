@@ -11,10 +11,6 @@ import javax.ws.rs.client.WebTarget;
 import com.controller.*;
 import com.java.*;
 
-import DataTypeObjects.appointmentDTO;
-import DataTypeObjects.docHosDTO;
-import DataTypeObjects.paymentDTO;
-
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
