@@ -60,7 +60,6 @@ public class cntFunder {
 				  ResultSet rs = st.executeQuery(sql);
 				  if(rs.next())
 				  {
-					  Funder f = new Funder();
 					  f.setFID(rs.getInt(1));
 					  f.setFunderName(rs.getString(2));
 					  f.setFunderMail(rs.getString(3));
@@ -86,7 +85,7 @@ public class cntFunder {
 			  PreparedStatement st = con.prepareStatement(sql);
 			  st.setInt(1, f1.getFID());
 			  st.setString(2, f1.getFunderName());
-			  st.setStringt(3, f1.getFunderMail());
+			  st.setString(3, f1.getFunderMail());
 			  st.setInt(4, f1.getPhoneNo());
 			  st.setString(5, f1.getAddress());
 			  st.setDouble(6, f1.getAmount());
@@ -112,7 +111,7 @@ public class cntFunder {
 
 			  st.setInt(1, f1.getFID());
 			  st.setString(2, f1.getFunderName());
-			  st.setStringt(3, f1.getFunderMail());
+			  st.setString(3, f1.getFunderMail());
 			  st.setInt(4, f1.getPhoneNo());
 			  st.setString(5, f1.getAddress());
 			  st.setDouble(6, f1.getAmount());
