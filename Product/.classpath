@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/asm-all-repackaged-2.1.30.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/cglib-2.1.30.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/guava-13.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/hk2-api-2.1.30.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/hk2-locator-2.1.30.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/hk2-utils-2.1.30.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/javax.inject-2.1.30.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/javax.ws.rs-api-2.0-m12.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/jersey-common-2.0-m09.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/jersey-media-json-jackson-2.30.1.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse new/New folder/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="var" path="JRE_SRC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-11.0.9">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
