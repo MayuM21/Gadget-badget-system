@@ -14,7 +14,7 @@ import com.java.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/Payment")
+@Path("/Payments")
 public class resPayment {
 	
 cntPayment app = new cntPayment();
